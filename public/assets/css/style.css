@@ -29,7 +29,7 @@
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-size: 54px;
-    color: rgb(207, 205, 246) ;
+    color: rgb(207, 205, 246);
 }
 #aboutImg {
     width: 250px;
@@ -59,18 +59,19 @@
     text-align: center;
     font-size: 48px;
 }
-#portImgEl {
-    margin: 0 auto;
-    text-align: center;
-}
 .portImg {
-    height: 25vh;
+    width: 50vh;
     margin: 0 auto;
     border: 2px solid #574e6b;
     margin: 10px;
     padding: 1px;
 }
-.portImg:hover {
+.miniImg {
+    height: 200px;
+    border: 2px solid #574e6b;
+    margin-bottom: 20px;
+}
+.miniImg:hover {
     filter: drop-shadow(8px 8px 10px darkgray);
 }
 .modalImg {
