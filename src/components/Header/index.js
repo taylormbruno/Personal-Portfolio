@@ -7,8 +7,15 @@ function Header() {
         height: "10em"
     };
     
+    var phantom = {
+        display: 'block',
+        padding: '20px',
+        height: '200px',
+        width: '100%',
+    }
     return(
-        <nav className="navbar navbar-fixed-top navbar-expand-md justify-content-end" style={nav}>
+        <div>
+        <nav className="navbar fixed-top navbar-expand-md justify-content-end" style={nav}>
             <h1 id="nameHead">Taylor Bruno</h1>
 
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,6 +28,8 @@ function Header() {
                 <a className="navbar-brand navLinks" href="/contact">Contact</a>
             </div>
         </nav>
+        <div style={phantom} />
+        </div>
     );
 }
 
