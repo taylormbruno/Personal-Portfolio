@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Container from "../components/Container";
 import projects from "./port.json";
 import Jumbotron from "../components/Jumbotron"
@@ -15,15 +15,21 @@ function Portfolio() {
         console.log(active);
     }
     
+    const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);  
+    const myRef = useRef(null);
+    const executeScroll = () => scrollToRef(myRef);
+
     return (
         <Container>
-            <h3 id="portHeader">Projects</h3>
+            <h3 id="portHeader" ref={myRef}>Projects</h3>
             <Jumbotron activeProject={active} />
             <div className="row">
                {projects.map(obj => {
                     return(
                         <div className="col-md">
-                            <img src={obj.image} class="miniImg" alt={obj.title} data-proj={obj.id} onClick={changeProject} />
+                            <div onClick={executeScroll}>
+                                <img src={obj.image} class="miniImg" alt={obj.title} data-proj={obj.id} onClick={changeProject} />
+                            </div>
                         </div>
                     );
                 })} 
