@@ -73,7 +73,7 @@ body {
 
 /* JUMBOTRON */
 .portImg {
-    width: 50vh;
+    width: 50vw;
     margin: 0 auto;
     border: 2px solid #574e6b;
     margin: 10px;
@@ -124,7 +124,8 @@ textarea {
     padding-bottom: 50px;
 }
 
-@media only screen and (max-width: 640px) {
+/* APPLIES TO ALL THAT NEED ADDITIONAL STYLING ON SMALLER SCREENS */
+@media only screen and (max-width: 580px) {
     #aboutImg {
         position: relative;
         right: 5%;
@@ -134,5 +135,7 @@ textarea {
         padding: 0px;
         margin: 0px;
     }
-
+    .portImg {
+        width: 80vw;
+    }
 }
