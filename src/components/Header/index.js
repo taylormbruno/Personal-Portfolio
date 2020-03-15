@@ -4,13 +4,13 @@ import "./style.css";
 function Header() {
     const nav = {
         backgroundColor: '#272733',
-        height: "10em"
+        height: "6em"
     };
     
     var phantom = {
         display: 'block',
         padding: '20px',
-        height: '200px',
+        height: '150px',
         width: '100%',
     }
     return(

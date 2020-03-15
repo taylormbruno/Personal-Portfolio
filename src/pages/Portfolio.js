@@ -4,7 +4,6 @@ import projects from "./port.json";
 import Jumbotron from "../components/Jumbotron"
 
 function Portfolio() {
-    // eslint-disable-next-line
     const [active, setActive] = useState(projects[0]);
 
     const changeProject = (event) => {
@@ -15,7 +14,7 @@ function Portfolio() {
         console.log(active);
     }
     
-    const scrollToRef = (ref) => window.scrollTo(0, 0);  
+    const scrollToRef = (ref) => window.scrollTo(0, ref);  
     const myRef = useRef(null);
     const executeScroll = () => scrollToRef(myRef);
 
