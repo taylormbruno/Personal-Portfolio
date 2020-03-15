@@ -1,0 +1,12 @@
+.nav {
+    background-color: rgb(43, 41, 58) !important;
+    color: white;
+    padding: 5% 2%;
+}
+
+.navLinks {
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
