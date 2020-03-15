@@ -2,7 +2,7 @@
 .one { color: #B1AEE6; }
 .oneBackground { background-color: rgb(194, 192, 231); }
 .two { color: #9E9BCC; }
-.twoBackground { background-color: #9E9BCC; }
+.twoBackground { background-color: #9a97c8; }
 .three { color: #8A87B3; }
 .threeBackground { background-color: #8A87B3; }
 .four { color: #767499; }
@@ -18,10 +18,12 @@
 .nine { color: #141319; }
 .nineBackground { background-color: #141319; }
 
+/* ALL */
 body {
     font-family: 'Roboto', sans-serif !important;
-
 }
+
+/* HEADER */
 .navLinks {
     color: #9E9BCC !important;
     padding: 15px !important;
@@ -35,6 +37,8 @@ body {
     font-size: 54px;
     color: rgb(207, 205, 246);
 }
+
+/* ABOUT */
 #aboutImg {
     width: 250px;
     padding: 2px;
@@ -51,24 +55,12 @@ body {
     border-radius: 20px;
     color: gainsboro;
 }
-#emailLink {
-    text-decoration: none;
-}
-#portfolio {
-    padding: 20px;
-    background-color: #dae0f0;
-}
+
+/* PORTFOLIO */
 #portHeader {
     font-family: 'Amatic SC', cursive; 
     text-align: center;
     font-size: 48px;
-}
-.portImg {
-    width: 50vh;
-    margin: 0 auto;
-    border: 2px solid #574e6b;
-    margin: 10px;
-    padding: 1px;
 }
 .miniImg {
     height: 200px;
@@ -78,8 +70,14 @@ body {
 .miniImg:hover {
     filter: drop-shadow(8px 8px 10px darkgray);
 }
-.modalImg {
-    width: 100%;
+
+/* JUMBOTRON */
+.portImg {
+    width: 50vh;
+    margin: 0 auto;
+    border: 2px solid #574e6b;
+    margin: 10px;
+    padding: 1px;
 }
 .portLink {
     color: #A2768F;
@@ -88,7 +86,7 @@ body {
     color: rgb(87, 63, 77);
 }
 
-/* Contact Section */
+/* CONTACT */
 #contactHead{
     font-family: 'Amatic SC', cursive;
     font-size: 48px;
