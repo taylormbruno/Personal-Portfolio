@@ -9,7 +9,9 @@ function About() {
                     <img src="/assets/images/hw-photo.jpg" id="aboutImg" alt="Taylor Bruno" />    
                 </div>
                 <div className="col-md">  
-                    <h3>Full-Stack Web Developer passionate about approaching challenges from all angles and excited to collaborate with others to create meaningful web applications. Recently earned a certificate in Full Stack Development from the University of North Carolina - Charlotte.</h3>
+                    <h3>
+                        Full-Stack Web Developer passionate about approaching challenges from all angles and excited to collaborate with others to create meaningful web applications. Completed the certificate program in Full Stack Development from the University of North Carolina - Charlotte. 
+                    </h3>
                 </div>
             </div>
             <div className="skillList text-left">
