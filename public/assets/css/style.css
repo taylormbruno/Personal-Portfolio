@@ -29,7 +29,9 @@ body {
     padding: 15px !important;
 }
 .navLinks:hover {
-    color:white !important;
+    color: #B1AEE6 !important; 
+    text-decoration: underline !important;
+
 }
 #nameHead {
     text-align: center;

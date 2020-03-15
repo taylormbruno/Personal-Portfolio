@@ -1,10 +1,10 @@
 import React from "react";
-import "./style.css";
+// import "./style.css";
 
 function Header() {
     const nav = {
         backgroundColor: '#272733',
-        height: "6em"
+        height: "8.5em"
     };
     
     var phantom = {
