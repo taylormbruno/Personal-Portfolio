@@ -18,6 +18,10 @@
 .nine { color: #141319; }
 .nineBackground { background-color: #141319; }
 
+body {
+    font-family: 'Roboto', sans-serif !important;
+
+}
 .navLinks {
     color: #9E9BCC !important;
     padding: 15px !important;
@@ -83,28 +87,16 @@
 .portLink:hover {
     color: rgb(87, 63, 77);
 }
-#contact {
-    background: url("../images/confectionary.png");
-    /* background-size: cover; */
-    background-repeat: repeat;
-    margin: 0 auto;
-    padding: 15px;
-    text-align: center; 
-}
+
+/* Contact Section */
 #contactHead{
     font-family: 'Amatic SC', cursive;
     font-size: 48px;
 }
 form {
-    padding: 10px;
-    font-weight: bold;
-    font-size:24px;
-    /* background-color:#B3859A */
     background-color:#574e6b;
-    margin: 0 auto;
-    margin-bottom: 15px;
     border-radius: 10px;
-    width: 70vw;
+    padding: 15px;
 }
 label {
     color: gainsboro;
@@ -115,30 +107,25 @@ input{
 textarea {
     width: 40vw;
 }
-a, a:hover {
+.contactIcon, .cLink {
+    text-decoration: none !important;
+    color: #4F4D66;
+}
+.contactIcon:hover, .cLink:hover {
     text-decoration: none;
-    color:white;
+    color: #8A87B3;
 }
-#resModBody {
-    margin: 0 auto !important;
-    width: 100% !important;
-} 
-#resumeEl {
-    width: 100% !important;
-    height: 65vh;
-}
-.contactBtn {
-    background-color: gray;
-    border-radius: 10px;
+.contactLinks {
     margin: 0 auto;
-    color:white;
     padding: 15px;
     text-align: center;
-    
 }
-.contactBtn:hover {
-    transform: scale(0.9);
+.cLink {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 24px;
+    padding-bottom: 50px;
 }
+
 @media only screen and (max-width: 640px) {
     #aboutImg {
         position: relative;
