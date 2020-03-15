@@ -15,7 +15,7 @@ function Portfolio() {
         console.log(active);
     }
     
-    const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);  
+    const scrollToRef = (ref) => window.scrollTo(0, 0);  
     const myRef = useRef(null);
     const executeScroll = () => scrollToRef(myRef);
 
