@@ -30,6 +30,7 @@ function About() {
                             <li>Web API's</li>
                             <li>React.js</li>
                             <li>MongoDB and Mongoose</li>
+                            <li>Progressive Web Applications</li>
                         </ul> 
                     </div>
                 </div>
