@@ -21,6 +21,7 @@
 /* ALL */
 body {
     font-family: 'Roboto', sans-serif !important;
+    font-display: swap;
 }
 
 /* HEADER */
@@ -38,6 +39,7 @@ body {
     font-family: 'Amatic SC', cursive;
     font-size: 54px;
     color: rgb(207, 205, 246);
+    font-display: swap;
 }
 
 /* ABOUT */
@@ -63,6 +65,7 @@ body {
     font-family: 'Amatic SC', cursive; 
     text-align: center;
     font-size: 48px;
+    font-display: swap;
 }
 .miniImg {
     height: 200px;
@@ -92,6 +95,7 @@ body {
 #contactHead{
     font-family: 'Amatic SC', cursive;
     font-size: 48px;
+    font-display: swap;
 }
 form {
     background-color:#574e6b;
@@ -124,6 +128,7 @@ textarea {
     font-family: 'Roboto', sans-serif !important;
     font-size: 24px;
     padding-bottom: 50px;
+    font-display: swap;
 }
 
 /* APPLIES TO ALL THAT NEED ADDITIONAL STYLING ON SMALLER SCREENS */

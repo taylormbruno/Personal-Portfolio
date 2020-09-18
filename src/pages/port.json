@@ -2,7 +2,7 @@
     {
         "id":0,
         "title": "Virtual Host",
-        "image": "/assets/images/virtHost.png",
+        "image": "https://res.cloudinary.com/tbruno/image/upload/v1600447788/virtHost_v5sxfu.png",
         "description": "Collaborative MERN full stack application to create an event management application. Sign in using a locally created account or using your Google account. Save events and vendors to be hosted or find events in your area and save notes about the vendors hosted by the events.",
         "builtWith":"Node.js, Express.js, MongoDB, Mongoose, Passport.js, Local Storage, React.js, Semantic React UI, Google+ API",
         "repo": "https://github.com/taylormbruno/virtualHost",
@@ -11,7 +11,7 @@
     {
         "id": 1,
         "title": "Shelfie",
-        "image": "/assets/images/shelfie.png",
+        "image": "https://res.cloudinary.com/tbruno/image/upload/v1600447787/shelfie_mj48tm.png",
         "description": "This project allows a user to sign up with the app and login using that username and password. Once logged in, the user is directed to their homepage and any saved books will populate in the correct 'book shelf' with the option to move or delete each book. When the user searches for a book, it will give them the option to save into their bookshelves.",
         "builtWith": "Node.js, Express.js, SQL, Sequelize, Passport.js, Handlebars",
         "repo": "https://github.com/taylormbruno/project2",
@@ -20,7 +20,7 @@
     {
         "id": 2,
         "title": "Eat-Da-Burger!",
-        "image": "/assets/images/burger.png",
+        "image": "https://res.cloudinary.com/tbruno/image/upload/v1600447787/burger_clfy41.png",
         "description": "This project allows a user enter the burgers they want to eat into the SQL database and then 'Devour' them at the click of a button. The application is deployed on Heroku with the user's 'burger' content saved in a database.",
         "builtWith": "Node.js, Express.js, SQL, Handlebars",
         "repo": "https://github.com/taylormbruno/burger",
@@ -29,7 +29,7 @@
     {
         "id": 3,
         "title": "Simple Eats",
-        "image": "/assets/images/simple-eats.png",
+        "image": "https://res.cloudinary.com/tbruno/image/upload/v1600447787/simple-eats_s9schr.jpg",
         "description": "This project was built collaboratively by three prospective coders at the UNCC Coding Bootcamp. This project allows a user to find recipes and filter results based on dietary restrictions, excluded ingredients, food intolerances, and types of food/drink. Users can add items from a recipe's ingredient list directly to a grocery list.",
         "builtWith": "JavaScript, HTML, CSS, jQuery, Materialize",
         "repo": "https://github.com/kaciehatley/simple-eats",
@@ -38,7 +38,7 @@
     {
         "id": 4,
         "title": "Weather Dashboard",
-        "image": "/assets/images/weathDash.png",
+        "image": "https://res.cloudinary.com/tbruno/image/upload/v1600447787/weathDash_kjwkqj.png",
         "description": "This weather dashboard will allow the user to search for a city and displays the current weather conditions and a 5 day forecast. This project also will save the search history for up to 5 cities.",
         "builtWith": "JavaScript, HTML, CSS",
         "repo": "https://github.com/taylormbruno/WeatherDashboard",
@@ -47,7 +47,7 @@
     {
         "id": 5,
         "title": "Work Day Scheduler",
-        "image": "/assets/images/daySched.png",
+        "image": "https://res.cloudinary.com/tbruno/image/upload/v1600447787/daySched_g1vfws.png",
         "description": "This day scheduler allows the user to save important tasks to a specific time slot. The hour is color coded to represent whether the time is in the past, present, or future.",
         "builtWith": "JavaScript, HTML, CSS",
         "repo": "https://github.com/taylormbruno/WorkDayScheduler",
@@ -56,7 +56,7 @@
     {
         "id": 6,
         "title": "Coding Quiz",
-        "image": "/assets/images/codingQuizSS1.png",
+        "image": "https://res.cloudinary.com/tbruno/image/upload/v1600447788/codingQuizSS1_vhkqxk.png",
         "description": "This coding quiz presents the user with the option to take three seperate quizes: one for HTML, one for CSS, and one for JavaScript. This project creates a score based on the amount of time left when the user completes the quiz. There are deductions in time if the user answers incorrectly. This project saves the high scores in local storage but still needs work to fix a few bugs.",
         "builtWith": "JavaScript, HTML, CSS",
         "repo": "https://github.com/taylormbruno/CodingQuiz",
