@@ -3,7 +3,7 @@ import React from "react";
 
 function Header() {
     const nav = {
-        backgroundColor: '#272733',
+        backgroundColor: '#272727',
         height: "8.5em"
     };
     

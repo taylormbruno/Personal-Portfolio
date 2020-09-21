@@ -1,9 +1,10 @@
 import React from "react";
 import Container from "../components/Container";
 
-function About() {
+
+function About() {    
     return (
-        <Container>
+        <Container id="aboutContainer">
             <div className="row m-2 p-4">
                 <div className="col-md">
                     <img src="/assets/images/personalPhoto.jpg" id="aboutImg" alt="Taylor Bruno" />    
@@ -15,7 +16,7 @@ function About() {
                 </div>
             </div>
             <div className="skillList text-left">
-                <h4 className="p-2">Technical Skills</h4> 
+                <h4 className="p-2 techHead">Technical Skills</h4> 
                 <div className="row"> 
                     <div className="col-md">
                         <ul>
