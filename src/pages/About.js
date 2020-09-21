@@ -6,7 +6,7 @@ function About() {
         <Container>
             <div className="row m-2 p-4">
                 <div className="col-md">
-                    <img src="https://res.cloudinary.com/tbruno/image/upload/v1600447787/hw-photo_fndopz.jpg" id="aboutImg" alt="Taylor Bruno" />    
+                    <img src="/assets/images/personalPhoto.jpg" id="aboutImg" alt="Taylor Bruno" />    
                 </div>
                 <div className="col-md">  
                     <h3>
