@@ -3,6 +3,7 @@
 body {
     font-family: 'Roboto', sans-serif !important;
     font-display: swap;
+    background-color: #272727;
     background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/escheresque_ste.png");
 }
 
