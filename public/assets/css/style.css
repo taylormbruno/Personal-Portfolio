@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto', sans-serif !important;
     font-display: swap;
     background-color: #474747;
-    background-image: url(https://res.cloudinary.com/tbruno/image/upload/v1610218270/escheresque_ste_in6k3t.png);
+    background-image: url("https://res.cloudinary.com/tbruno/image/upload/v1610218270/escheresque_ste_in6k3t.png");
 }
 
 /* HEADER */
