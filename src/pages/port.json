@@ -2,7 +2,7 @@
     {
         "id":0,
         "title": "Virtual Host",
-        "image": "https://res.cloudinary.com/tbruno/image/upload/v1600447788/virtHost_v5sxfu.png",
+        "image": "https://res.cloudinary.com/tbruno/image/upload/c_thumb,h_1264,w_1253/v1600447788/virtHost_v5sxfu.png",
         "description": "Collaborative MERN full stack application to create an event management application. Sign in using a locally created account or using your Google account. Save events and vendors to be hosted or find events in your area and save notes about the vendors hosted by the events.",
         "builtWith":"Node.js, Express.js, MongoDB, Mongoose, Passport.js, Local Storage, React.js, Semantic React UI, Google+ API",
         "repo": "https://github.com/taylormbruno/virtualHost",

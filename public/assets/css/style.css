@@ -4,7 +4,6 @@ body {
     font-family: 'Roboto', sans-serif !important;
     font-display: swap;
     background-color: #474747 !important;
-    background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/escheresque_ste.png") !important;
 }
 
 /* HEADER */
@@ -59,12 +58,13 @@ body {
     color:white;
 }
 .miniImg {
-    height: 200px;
+    height: 25vw;
+    margin-bottom: 10px;
     border: 2px solid #272727 !important;
-    margin-bottom: 20px;
+    border-radius: 25%;
 }
 .miniImg:hover {
-    filter: drop-shadow(8px 8px 10px #ff652f);
+    border: 5px #ff652f;
 }
 
 /* JUMBOTRON */
